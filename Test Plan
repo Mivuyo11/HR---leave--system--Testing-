@@ -1,1 +1,38 @@
+# Test Plan: HR Leave Management System
 
+## 1. Introduction
+Tester: Mivuyo Kalolo | Date: 24/11/2026 | App: Python CLI + SQLite
+Purpose: verify leave requests, balances, and login work correctly.
+
+## 2. Scope
+In scope: login, apply for leave, approve/reject leave, balance updates, data saved in the database.
+Out of scope: performance, load, and UI design testing.
+
+## 3. Test Approach
+- Functional testing
+- Boundary value analysis and equivalence partitioning
+- Negative and input validation testing
+- Basic security checks (wrong passwords, role access)
+- Automated unit tests with pytest
+
+## 4. Test Environment
+OS: macOS  | Python: 26.10.0 | Database: SQLite
+Tools: DB Browser for SQLite, GitHub, pytest
+
+## 5. Entry Criteria
+App runs and every menu option has been explored.
+
+## 6. Exit Criteria
+All high-priority test cases executed and all defects logged.
+
+## 7. Risks
+- No documentation or requirements available
+- Business rules may need to be assumed
+
+## 8. Deliverables
+Test cases, bug reports, automation scripts, summary report.
+
+## 9. Defect Severity
+- Critical: app crashes or data is corrupted
+- Major: a main feature gives wrong results
+- Minor: small or cosmetic issue
